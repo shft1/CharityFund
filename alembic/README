@@ -1,0 +1,5 @@
+## Основные команды alembic
+
+alembic revision --autogenerate -m "Your text" - автоматическое создание миграций с описанием
+alembic upgrade head - применение всех миграций
+alembic downgrade base - отмена всех миграций
